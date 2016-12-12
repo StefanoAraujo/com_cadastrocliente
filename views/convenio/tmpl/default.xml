@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<metadata>
+	<layout title="Convenios - Lei de Acesso à Informação">
+		<message>Convenios - Lei de Acesso à Informação</message>
+	</layout>
+	<fields
+		name="request"
+		addfieldpath="/administrator/components/com_cadastroclientes/models/fields"
+	>
+		<fieldset name="request">
+			<field name="artigo" type="sql" default="5" label="Artigo" query="SELECT id, title as artigo FROM #__content where catid=29 and state=1" key_field="id" >
+				<option value="">Selecione um Artigo</option>
+			</field>
+		</fieldset>
+	</fields>
+</metadata>

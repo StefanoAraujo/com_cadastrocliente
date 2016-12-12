@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form addrulepath="/components/com_pesquisadinamica/models/rules">
+	<fieldset name="filtroprotocolo" addfieldpath="/components/com_pesquisadinamica/models/fields" label="COM_CADASTROCLIENTE_LABEL_FORM_ALTERARDADOSPERFIL">
+		<field name="protocolo" type="text" class="validate-protocolo animated pulse" filter="protocolo" label="COM_CADASTROCLIENTE_LABEL_TABLE_PROTOCOLO" validate="protocolo"/>
+	</fieldset>
+</form>

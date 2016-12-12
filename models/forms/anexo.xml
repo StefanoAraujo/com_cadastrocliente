@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form addrulepath="/components/com_pesquisadinamica/models/rules">
+	<fieldset name="anexo" addfieldpath="/components/com_pesquisadinamica/models/fields" label="Formulário de Cadastro de Formulário ">
+		<field name="anexo" type="file" label="COM_CADASTROCLIENTE_LABEL_BTN_ANEXO" description="" size="10" accept="image/*" />
+		<field name="descricao" type="text" id="descricao" description="" label="COM_CADASTROCLIENTE_LABEL_FORM_DESCRICAO" class="required validate-descricao" required="true" />
+	</fieldset>
+</form>

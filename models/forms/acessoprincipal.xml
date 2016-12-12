@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="acessoprincipal" label="COM_CADASTROCLIENTE_LABEL_FIELDSET_FORM_CADASTRO">
+		<field name="cpfCnpj" type="text" class="validate-cpfcpnpj input-block-level" filter="cpfcpnpj" label="COM_CADASTROCLIENTE_LABEL_FORM_USUARIO" validate="cpfcpnpj" required="true" />
+		<field name="senha" type="password" class="validate-senha input-block-level" filter="raw" label="COM_CADASTROCLIENTE_LABEL_FORM_SENHA"  validate="senha"  required="true" />
+	</fieldset>
+</form>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form addrulepath="/components/com_pesquisadinamica/models/rules">
+	<fieldset name="perfilpf" addfieldpath="/components/com_pesquisadinamica/models/fields" label="COM_CADASTROCLIENTE_LABEL_FORM_ALTERARDADOSPERFIL">
+		<field name="cpfcnpj" type="text" disabled="true" class="validate-usuario input-block-level" filter="username" label="COM_CADASTROCLIENTE_LABEL_FORM_CPF" validate="username"/>
+		<field name="nome" type="text" class="validate-usuario input-block-level" filter="username" label="COM_CADASTROCLIENTE_LABEL_FORM_NOME" size="25" validate="username"/>
+		<field name="datanascimento" type="text" class="validate-usuario input-block-level" filter="username" label="COM_CADASTROCLIENTE_LABEL_FORM_DATA_NASCIMENTO" size="25" validate="username"/>
+		<field name="email" type="text" class="validate-usuario input-block-level" filter="username" label="COM_CADASTROCLIENTE_LABEL_FORM_EMAIL" size="25" validate="username"/>
+	</fieldset>
+</form>

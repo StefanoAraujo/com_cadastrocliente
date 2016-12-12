@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form addrulepath="/components/com_cadastrocliente/models/rules">
+	<fieldset name="dadoscomplementares"   addfieldpath="/components/com_cadastrocliente/models/fields" label="COM_CADASTROCLIENTE_LABEL_FORM_DADOSBASICOS">
+		<field name="email" type="text" class="validate-email " filter="email" label="COM_CADASTROCLIENTE_LABEL_FORM_EMAIL" size="25" validate="email"/>
+		<field name="autorizadoDescarteETE" type="radio" class="validate-autorizadoDescarteETE " filter="autorizadoDescarteETE" label="COM_CADASTROCLIENTE_LABEL_FORM_AUTORIZADO_ETE" size="25" validate="autorizadoDescarteETE">
+			<option value="0">COM_CADASTROCLIENTE_LABEL_FORM_SIM</option>
+			<option value="1">COM_CADASTROCLIENTE_LABEL_FORM_NAO</option>
+		</field>
+		<field name="bloqueado" type="radio" class="validate-bloqueado " filter="bloqueado" label="COM_CADASTROCLIENTE_LABEL_FORM_BLOQUEADO" size="25" validate="bloqueado">
+			<option value="0">COM_CADASTROCLIENTE_LABEL_FORM_SIM</option>
+			<option value="1">COM_CADASTROCLIENTE_LABEL_FORM_NAO</option>
+		</field>
+	</fieldset>
+</form>

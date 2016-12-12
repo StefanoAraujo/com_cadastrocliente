@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form addrulepath="/components/com_cadastrocliente/models/rules">
+	<fieldset name="acessoredefinir"   addfieldpath="/components/com_cadastrocliente/models/fields" label="COM_CADASTROCLIENTE_LABEL_MENSAGEM_TROCASENHA">
+		<field name="cpfCnpj" type="text" class="validate-usuario input-block-level" filter="username" label="CPF ou CNPJ" validate="username" required="true"/>
+		<field name="email" type="text" class="validate-email input-block-level" filter="email" label="COM_CADASTROCLIENTE_LABEL_FORM_EMAIL" size="25" validate="email" required="true"/>
+	</fieldset>
+	
+</form>

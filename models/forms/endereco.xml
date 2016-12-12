@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<form addrulepath="/components/com_pesquisadinamica/models/rules">
+	<fieldset name="formulario" addfieldpath="/components/com_pesquisadinamica/models/fields" label="Formulário de Cadastro de Formulário ">
+		<field name="id" type="hidden" id="id" maxlength="20" />
+		<field name="usuario" type="usuario" id="usuario" description="usuário Caesb" label="Login Caesb" class="required validate-username" required="true" maxlength="20" />
+		<field name="nome" type="text" id="nome" description="Nome Formulário" label="´Nome completo" class="required validate-nome" required="true" />
+		<field name="state" type="list" label="Estado" description="Habilitado ou desabilitado" required="true" >
+			<option value="">Selecione</option>
+			<option value="0">Desabilitado</option>
+			<option value="1">habilitado</option>
+		</field>
+		<field name="datainicio" type="calendar" default="00/00/0000" label="Data início" description="" format="%d/%m/%Y" required="true"/>
+		<field name="datatermino" type="calendar" default="00/00/0000" label="Data término" description="" format="%d/%m/%Y" required="true"/>
+		<field name="datavisualizacao" type="calendar" default="00/00/0000" label="Data de visualização" description="" format="%d/%m/%Y" required="true"/>
+		<field name="consultar" type="list" label="Pode Consultar?" description="Inscricao Consultar" required="true" >
+			<option value="">Selecione</option>
+			<option value="0">Não</option>
+			<option value="1">Sim</option>
+		</field>
+		<field name="alterar" type="list" label="Pode Alterar" description="Inscricao Alterar" required="true" >
+			<option value="">Selecione</option>
+			<option value="0">Não</option>
+			<option value="1">Sim</option>
+		</field>
+		<field name="excluir" type="list" label="Pode Excluir" description="Inscricao Excluir" required="true" >
+			<option value="">Selecione</option>
+			<option value="0">Não</option>
+			<option value="1">Sim</option>
+		</field>
+	</fieldset>
+</form>

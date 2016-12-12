@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form addrulepath="/components/com_cadastrocliente/models/rules">
+	<fieldset name="dadoscontato"   addfieldpath="/components/com_cadastrocliente/models/fields" label="COM_CADASTROCLIENTE_LABEL_FORM_DADOSBASICOS">
+		<field name="nacional" type="radio" class="validate-orgaoEmissor " filter="orgaoEmissor" label="COM_CADASTROCLIENTE_LABEL_FORM_ORGAOEMISSOR" size="25" validate="orgaoEmissor">
+			<option value="0">Nacional</option>
+			<option value="1">Internacional</option>
+		</field>
+		<field name="tipoTelefone_id" type="telefone" class="validate-tipoTelefone_id " filter="tipoTelefone_id" label="COM_CADASTROCLIENTE_LABEL_FORM_TIPOTELEFONE" validate="tipoTelefone_id"/>
+		<field name="nome" type="text" class="validate-nome  input-block-level" filter="nome" label="COM_CADASTROCLIENTE_LABEL_FORM_NOME" size="25" validate="nome"/>
+		<field name="pais_id" type="pais" class="validate-pais_id input-block-level" filter="pais_id" label="COM_CADASTROCLIENTE_LABEL_FORM_PAIS" validate="pais_id"/>
+		<field name="ddd" type="text" class="validate-ddd " filter="ddd" label="COM_CADASTROCLIENTE_LABEL_FORM_DDD" size="25" validate="ddd"/>
+		<field name="ramal" type="text" class="validate-ramal " filter="ramal" label="COM_CADASTROCLIENTE_LABEL_FORM_RAMAL" size="25" validate="ramal"/>
+		<field name="numero" type="text" class="validate-numero " filter="numero" label="COM_CADASTROCLIENTE_LABEL_FORM_NUMERO" validate="numero"/>
+		<field name="principal" type="checkbox" value="1" class="validate-principal " filter="principal" label="COM_CADASTROCLIENTE_LABEL_FORM_PRINCIPAL" size="25" validate="principal"/>
+	</fieldset>
+</form>

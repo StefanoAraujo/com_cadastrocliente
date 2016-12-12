@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form addrulepath="/components/com_cadastrocliente/models/rules">
+	<fieldset name="dadosbasicospf"   addfieldpath="/components/com_cadastrocliente/models/fields" label="COM_CADASTROCLIENTE_LABEL_FORM_DADOSBASICOS">
+		<field name="tipoCliente_id" type="cliente" class="validate-tipoCliente_id  input-block-level" filter="tipoCliente_id" label="COM_CADASTROCLIENTE_LABEL_FORM_TIPOCLIENTE" validate="tipoCliente_id"/>
+		<field name="cpfcnpj" type="text" class="validate-cpfcnpj  input-block-level" filter="cpfcnpj input-block-level" label="COM_CADASTROCLIENTE_LABEL_FORM_CPF" size="25" validate="cpfcnpj"/>
+		<field name="nomeClienteConta" type="text" class="validate-nomeClienteConta  input-block-level" filter="nomeClienteConta" label="COM_CADASTROCLIENTE_LABEL_FORM_NOMECONTA" size="25" validate="nomeClienteConta"/>
+		<field name="nome" type="text" class="validate-nome  input-block-level" filter="nome" label="COM_CADASTROCLIENTE_LABEL_FORM_NOME" size="25" validate="nome"/>
+		<field name="nomeMae" type="text" class="validate-nomeMae  input-block-level" filter="nomeMae" label="COM_CADASTROCLIENTE_LABEL_FORM_NOMEMAE" size="25" validate="nomeMae"/>
+		<field name="sexo" type="radio" label="COM_CADASTROCLIENTE_LABEL_FORM_SEXO" description="" class="btn-group btn-group-yesno input-block-level">
+		  <option value="1">COM_CADASTROCLIENTE_LABEL_FORM_MASC</option>
+		  <option value="0">COM_CADASTROCLIENTE_LABEL_FORM_FEM</option>
+		</field>
+		<field name="dataNascimento" type="text" class="validate-dataNascimento  input-block-level" filter="dataNascimento" label="COM_CADASTROCLIENTE_LABEL_FORM_DATA_NASCIMENTO" size="25" validate="dataNascimento"/>
+		<field name="estadoCivil_id" type="estadocivil" class="validate-estadoCivil_id  input-block-level" filter="estadoCivil_id" label="COM_CADASTROCLIENTE_LABEL_FORM_ESTADOCIVIL" validate="estadoCivil_id"/>
+		<field name="nomeConjuge" type="text" class="validate-nomeConjuge  input-block-level" filter="nomeConjuge" label="COM_CADASTROCLIENTE_LABEL_FORM_NOMECONJUGE" size="25" validate="nomeConjuge"/>
+		<field name="cpfConjuge" type="text" class="validate-cpfConjuge  input-block-level" filter="cpfConjuge" label="COM_CADASTROCLIENTE_LABEL_FORM_CPFCONJUGUE" size="25" validate="cpfConjuge"/>
+		<field name="docIdentificacao" type="text" class="validate-docIdentificacao  input-block-level" filter="docIdentificacao" label="COM_CADASTROCLIENTE_LABEL_FORM_DOCIDENTIFICACAO" size="25" validate="docIdentificacao"/>
+		<field name="orgaoEmissor" type="text" class="validate-orgaoEmissor  input-block-level" filter="orgaoEmissor" label="COM_CADASTROCLIENTE_LABEL_FORM_ORGAOEMISSOR" size="25" validate="orgaoEmissor"/>
+	</fieldset>
+</form>

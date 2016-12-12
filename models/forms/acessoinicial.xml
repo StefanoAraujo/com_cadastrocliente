@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form addrulepath="/components/com_pesquisadinamica/models/rules">
+	<fieldset name="acessoinicial" label="COM_CADASTROCLIENTE_LABEL_FIELDSET_FORM_NAOTENHOCADASTRO"	required="true">
+		<field name="cpfCnpj" type="text" class="validate-usuario input-block-level" filter="username" label="" validate="username" required="true"/>
+		<field name="nome" type="text" class="validate-usuario input-block-level" filter="username" label="COM_CADASTROCLIENTE_LABEL_FORM_NOME" size="25" validate="username" required="true"/>
+		<field name="dataNascimento" type="text" class="validate-usuario input-block-level" filter="username" label="COM_CADASTROCLIENTE_LABEL_FORM_DATA_NASCIMENTO" size="25" validate="username" required="true"/>
+		<field name="razaoSocial" type="text" class="validate-usuario input-block-level" filter="username" label="COM_CADASTROCLIENTE_LABEL_FORM_RAZAOSOCIAL" size="25" validate="username" required="true"/>
+		<field name="inscricaoEstadual" type="text" class="validate-usuario input-block-level" filter="username" label="COM_CADASTROCLIENTE_LABEL_FORM_INSCRICAO_ESTADUAL" size="25" validate="username" required="true"/>
+		<field name="email" type="text" class="validate-usuario input-block-level" filter="username" label="COM_CADASTROCLIENTE_LABEL_FORM_EMAIL" size="25" validate="username" required="true"/>
+		<field name="termo" type="checkbox" label="COM_CADASTROCLIENTE_LABEL_FORM_TERMODEUSO" description="" value="1" default="0" required="true"/>
+	</fieldset>
+</form>

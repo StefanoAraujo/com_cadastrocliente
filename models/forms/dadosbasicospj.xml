@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form addrulepath="/components/com_cadastrocliente/models/rules">
+	<fieldset name="dadosbasicospf"   addfieldpath="/components/com_cadastrocliente/models/fields" label="COM_CADASTROCLIENTE_LABEL_FORM_DADOSBASICOS">
+		<field name="tipoCliente_id" type="cliente" class="validate-tipoCliente_id  input-block-level" filter="tipoCliente_id" label="COM_CADASTROCLIENTE_LABEL_FORM_TIPOCLIENTE" validate="tipoCliente_id"/>
+		<field name="cpfcnpj" type="text" class="validate-cpfcnpj  input-block-level" filter="cpfcnpj input-block-level" label="COM_CADASTROCLIENTE_LABEL_FORM_CPF" size="25" validate="cpfcnpj"/>
+		<field name="razaoSocial" type="text" class="validate-razaoSocial  input-block-level" filter="razaoSocial" label="COM_CADASTROCLIENTE_LABEL_FORM_RAZAOSOCIAL" size="25" validate="razaoSocial"/>
+		<field name="nomeFantasia" type="text" class="validate-nomeFantasia  input-block-level" filter="nomeFantasia" label="COM_CADASTROCLIENTE_LABEL_FORM_NOMEFANTASIA" size="25" validate="nomeFantasia"/>
+		<field name="nomeClienteConta" type="text" class="validate-nomeClienteConta  input-block-level" filter="nomeClienteConta" label="COM_CADASTROCLIENTE_LABEL_FORM_NOMECONTA" size="25" validate="nomeClienteConta"/>
+		<field name="inscricaoEstadual" type="text" class="validate-inscricaoEstadual  input-block-level" filter="inscricaoEstadual" label="COM_CADASTROCLIENTE_LABEL_FORM_INSCRICAOESTADUAL" size="25" validate="inscricaoEstadual"/>
+	</fieldset>
+</form>
+

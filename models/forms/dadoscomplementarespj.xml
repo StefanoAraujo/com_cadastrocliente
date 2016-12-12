@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form addrulepath="/components/com_cadastrocliente/models/rules">
+	<fieldset name="dadosenderecopf"   addfieldpath="/components/com_cadastrocliente/models/fields" label="COM_CADASTROCLIENTE_LABEL_FORM_CADASTROENDERECO">
+		<field name="tipoEndereco_id" type="endereco" class="validate-tipoEndereco_id " filter="tipoEndereco_id" label="COM_CADASTROCLIENTE_LABEL_FORM_TIPOENDERECO" validate="tipoEndereco_id"/>
+		<field name="pais_id" type="pais" class="validate-pais_id " filter="pais_id" label="COM_CADASTROCLIENTE_LABEL_FORM_PAIS" validate="pais_id"/>
+		<field name="uf_id" type="uf" class="validate-uf_id " filter="uf_id" label="COM_CADASTROCLIENTE_LABEL_FORM_UF" validate="uf_id"/>
+		<field name="cep" type="text" class="validate-cep " filter="cep" label="COM_CADASTROCLIENTE_LABEL_FORM_CEP_CORREIOS" validate="cep"/>
+		<field name="tipoLogradouro_id" type="logradouro" class="validate-tipoLogradouro_id " filter="tipoLogradouro_id" label="COM_CADASTROCLIENTE_LABEL_FORM_TIPOLOGRADOURO" validate="tipoLogradouro_id"/>
+		<field name="enderecoCompleto" type="text" class="validate-enderecoCompleto " filter="enderecoCompleto" label="COM_CADASTROCLIENTE_LABEL_FORM_LOGRADOURO" validate="enderecoCompleto"/>
+		<field name="numero" type="text" class="validate-numero " filter="numero" label="COM_CADASTROCLIENTE_LABEL_FORM_NUM" validate="numero"/>
+		<field name="complemento" type="text" class="validate-complemento " filter="complemento" label="COM_CADASTROCLIENTE_LABEL_FORM_COMPLEMENTO" validate="complemento"/>
+		<field name="bairro" type="text" class="validate-bairro " filter="bairro" label="COM_CADASTROCLIENTE_LABEL_FORM_BAIRRO" validate="bairro"/>
+		<field name="cidade" type="text" class="validate-cidade " filter="cidade" label="COM_CADASTROCLIENTE_LABEL_FORM_CIDADE" validate="cidade"/>
+		<field name="longitude" type="text" class="validate-longitude " filter="longitude" label="COM_CADASTROCLIENTE_LABEL_FORM_LONGITUDE" validate="longitude"/>
+		<field name="latitude" type="text" class="validate-latitude " filter="latitude" label="COM_CADASTROCLIENTE_LABEL_FORM_LATITUDE" validate="latitude"/>
+		<field name="ativo" type="text" class="validate-ativo " filter="ativo" label="COM_CADASTROCLIENTE_LABEL_FORM_SITUACAOENDERECO" validate="ativo"/>
+		<field name="correspondencia" type="checkbox" class="validate-correspondencia " filter="ativo" label="COM_CADASTROCLIENTE_LABEL_FORM_CORRESPONDENCIA" validate="correspondencia"/>
+	</fieldset>
+</form>
+
+
+
+<!-- <field name="nomeConjuge" type="text" class="validate-nomeConjuge  input-block-level" filter="nomeConjuge" label="COM_CADASTROCLIENTE_LABEL_FORM_NOMECONJUGE" size="25" validate="nomeConjuge"/>
+		<field name="cpfConjuge" type="text" class="validate-cpfConjuge  input-block-level" filter="cpfConjuge" label="COM_CADASTROCLIENTE_LABEL_FORM_CPFCONJUGUE" size="25" validate="cpfConjuge"/>
+		<field name="nomeRepresentante" type="text" class="validate-nomeRepresentante  input-block-level" filter="nomeRepresentante" label="COM_CADASTROCLIENTE_LABEL_FORM_NOMEREPRESENTANTE" size="25" validate="nomeRepresentante"/>
+		<field name="cpfRepresentante" type="text" class="validate-cpfRepresentante  input-block-level" filter="cpfRepresentante" label="COM_CADASTROCLIENTE_LABEL_FORM_CPFREPRESENTANTE" size="25" validate="cpfRepresentante"/> -->

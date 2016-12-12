@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form addrulepath="/components/com_pesquisadinamica/models/rules">
+	<fieldset name="formulario" addfieldpath="/components/com_pesquisadinamica/models/fields" label="COM_CADASTROCLIENTE_LABEL_TITLE_TROCASENHA">
+		<field name="senha" type="password" class="validate-senha input-block-level" filter="raw" label="COM_CADASTROCLIENTE_LABEL_FORM_NOVASENHA"  validate="senha"/>
+		<field name="confirmarsenha" type="password" class="validate-confirmarsenha input-block-level" filter="raw" label="COM_CADASTROCLIENTE_LABEL_FORM_CONFIRMARSENHA"  validate="senha"/>
+	</fieldset>
+</form>

@@ -1,0 +1,20 @@
+- O banco login aceita mais de CNPJCPF;
+RS005 
+-razao social deve ser alfanumerico - ex: M do brasil
+
+RS Generico
+
+RS004, RS005
+- tabela para cuidar do tempo de expiracao do email requisitado: ideial é uma tabela de tipo de requisicao para guardar a tipo de requisicao e seu tempo de expiracao e uma tabela associativa com data, login_id e tipo associado para manutentcao de requsicao
+- Termo de uso nao ha disposição dele no gcom
+- CAmpo senha na tabela login esta obrigatorio (FLuxo -> FORM1 não Ha senha -> envio de email confirmacao -> cadastrop de senha)-razao social deverar ser salvo no campo "nome" da tabela login? Salvar uma senha generica(1)?e ter que criar regra no codigo?
+- Termo de Uso - aceite nao existe na tabela LOGIN. Este campo sera somente para validação no sistema, nao tera que ser salvo o bit no banco?
+
+
+RS003
+Apresentar os campos “nova senha” e “confirmar nova senha” desabilitados; (pode ocultar totalmente, apresentar desabilitados pode ser habilitado com facilidade em modo desenvolvedor);
+
+
+
+
+
